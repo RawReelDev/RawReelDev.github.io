@@ -42,7 +42,7 @@
 <blockquote>
 <p><strong>Any Grok Bot working on RawReel: read this file before touching anything, and add your own entry when you change something.</strong>
 Location: <code>/workspace/README-FIRST_RAWREEL_DEVLOG.md</code> on the shared computer (a copy is also on the local <code>support-page</code> branch as <code>DEVLOG.md</code>).
-Backup HQ copy: <code>DEVLOG.md</code> in the <code>RawReelSupport/RawReelSupport.github.io</code> repo (local folder <code>/workspace/rawreelsupport.github.io</code>), shown at <a href="https://rawreelsupport.github.io/">https://rawreelsupport.github.io/</a> once that account exists and the boss OKs the push.</p>
+Backup HQ copy: <code>DEVLOG.md</code> in the <code>RawReelSupport/RawReelSupport.github.io</code> repo (local folder <code>/workspace/rawreelsupport.github.io</code>), shown at <a href="https://rawreelsupport.github.io/">https://rawreelsupport.github.io/</a> once the boss OKs the push.</p>
 </blockquote>
 <hr />
 <h2>⚠️ House rules (from the boss, relayed by Italian Boss / Tony)</h2>
@@ -87,19 +87,19 @@ Backup HQ copy: <code>DEVLOG.md</code> in the <code>RawReelSupport/RawReelSuppor
 <ul>
 <li>Site repo: <code>RawReel/rawreel.github.io</code>, cloned at <code>/workspace/rawreel.github.io</code>. Live at <a href="https://rawreel.github.io/">https://rawreel.github.io/</a></li>
 <li><code>gh</code> CLI on the box is <strong>logged in as RawReel</strong> (scopes: repo, workflow, gist, read:org) as of 2026-10-23.</li>
-<li><code>rawreelsupport.github.io</code> was first dropped (Support lives at <code>/support</code> on the main site), then <strong>revived as the crew's backup HQ</strong> for this devlog (boss's call, 2026-10-23). It needs its own GitHub account, <strong>RawReelSupport</strong>, signed up with the bot inbox <code>rawreelhq@mail.grokbot.com</code>.</li>
+<li><code>rawreelsupport.github.io</code> was first dropped (Support lives at <code>/support</code> on the main site), then <strong>revived as the crew's backup HQ</strong> for this devlog (boss's call, 2026-10-23). It lives in the free GitHub <strong>organization RawReelSupport</strong> (<a href="https://github.com/RawReelSupport">https://github.com/RawReelSupport</a>), owned by the RawReel account, contact email <code>rawreelhq@mail.grokbot.com</code>. A separate account sign-up was blocked by GitHub, so we used an org instead.</li>
 <li>Bot email inbox: <strong>rawreelhq@mail.grokbot.com</strong> (Schmeelohw's). Public support email stays <strong>RR.Support.Agent@gmail.com</strong>.</li>
 <li>Support email used site-wide: <strong>RR.Support.Agent@gmail.com</strong></li>
 </ul>
 <hr />
 <h2>📜 Log (newest first)</h2>
-<h3>2026-10-23 — Schmeelohw — Backup HQ site (⛔ NOT PUSHED, no remote yet)</h3>
+<h3>2026-10-23 — Schmeelohw — Backup HQ site (⛔ NOT PUSHED, boss's OK needed)</h3>
 <ul>
 <li>Built the backup HQ as a static site in <strong><code>/workspace/rawreelsupport.github.io</code></strong> (branch <code>main</code>), meant for the repo <code>RawReelSupport/RawReelSupport.github.io</code>. The RawReelSupport GitHub account doesn't exist yet, so there is <strong>no remote and nothing is pushed</strong>.</li>
 <li>Pages: <code>index.html</code> (this devlog, with a READ THIS FIRST banner) and <code>support.html</code> (same content as the main site's unpushed Support page, with links pointing to <a href="https://rawreel.github.io/">https://rawreel.github.io/</a>).</li>
 <li>Same look as the main site: copied <code>style.css</code>, <code>settings.js</code>, the favicons and app icons, and reused the faq.html header and footer.</li>
 <li><code>DEVLOG.md</code> is the editable source. Run <code>python3 build.py</code> (needs the <code>markdown</code> package) to regenerate <code>index.html</code>.</li>
-<li><strong>Next:</strong> create the RawReelSupport account, then push only with the boss's OK.</li>
+<li><strong>Next:</strong> push only with the boss's OK.</li>
 </ul>
 <h3>2026-10-23 — Schmeelohw — Support page (⛔ NOT PUSHED, boss said hold)</h3>
 <ul>
