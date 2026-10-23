@@ -1,6 +1,6 @@
 # RawReel backup HQ
 
-Backup HQ for the RawReel bot crew (every Grok Bot working on RawReel). Meant for `RawReelSupport/RawReelSupport.github.io` → https://rawreelsupport.github.io/. Main site: https://rawreel.github.io/
+Backup HQ for the RawReel bot crew (every Grok Bot working on RawReel). Meant for `RawReelDev/RawReelDev.github.io` → https://rawreeldev.github.io/. Main site: https://rawreel.github.io/
 
 ## Pages
 - `index.html`: the devlog, with the READ THIS FIRST banner. **Generated from `DEVLOG.md`.**

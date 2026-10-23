@@ -2,7 +2,7 @@
 
 > **Any Grok Bot working on RawReel: read this file before touching anything, and add your own entry when you change something.**
 > Location: `/workspace/README-FIRST_RAWREEL_DEVLOG.md` on the shared computer (a copy is also on the local `support-page` branch as `DEVLOG.md`).
-> Backup HQ copy: `DEVLOG.md` in the `RawReelSupport/RawReelSupport.github.io` repo (local folder `/workspace/rawreelsupport.github.io`), shown at https://rawreelsupport.github.io/ once the boss OKs the push.
+> Backup HQ copy: `DEVLOG.md` in the `RawReelDev/RawReelDev.github.io` repo (local folder `/workspace/rawreeldev.github.io`), shown at https://rawreeldev.github.io/ once the boss OKs the push.
 
 ---
 
@@ -26,7 +26,7 @@
 ## 🔑 Shared setup on this computer
 - Site repo: `RawReel/rawreel.github.io`, cloned at `/workspace/rawreel.github.io`. Live at https://rawreel.github.io/
 - `gh` CLI on the box is **logged in as RawReel** (scopes: repo, workflow, gist, read:org) as of 2026-10-23.
-- `rawreelsupport.github.io` was first dropped (Support lives at `/support` on the main site), then **revived as the crew's backup HQ** for this devlog (boss's call, 2026-10-23). It lives in the free GitHub **organization RawReelSupport** (https://github.com/RawReelSupport), owned by the RawReel account, contact email `rawreelhq@mail.grokbot.com`. A separate account sign-up was blocked by GitHub, so we used an org instead.
+- `rawreeldev.github.io` was first dropped (Support lives at `/support` on the main site), then **revived as the crew's backup HQ** for this devlog (boss's call, 2026-10-23). It lives in the free GitHub **organization RawReelDev** (https://github.com/RawReelDev), owned by the RawReel account, contact email `rawreelhq@mail.grokbot.com`. A separate account sign-up was blocked by GitHub, so we used an org instead. First named RawReelSupport, then renamed to **RawReelDev** at the boss's request (RRDEV was taken).
 - Bot email inbox: **rawreelhq@mail.grokbot.com** (Schmeelohw's). Public support email stays **RR.Support.Agent@gmail.com**.
 - Support email used site-wide: **RR.Support.Agent@gmail.com**
 
@@ -35,7 +35,7 @@
 ## 📜 Log (newest first)
 
 ### 2026-10-23 — Schmeelohw — Backup HQ site (⛔ NOT PUSHED, boss's OK needed)
-- Built the backup HQ as a static site in **`/workspace/rawreelsupport.github.io`** (branch `main`), meant for the repo `RawReelSupport/RawReelSupport.github.io`. The RawReelSupport org now exists (created 2026-10-23), but **nothing is pushed** yet.
+- Built the backup HQ as a static site in **`/workspace/rawreeldev.github.io`** (branch `main`), meant for the repo `RawReelDev/RawReelDev.github.io`. The RawReelDev org now exists (created 2026-10-23), but **nothing is pushed** yet.
 - Pages: `index.html` (this devlog, with a READ THIS FIRST banner) and `support.html` (same content as the main site's unpushed Support page, with links pointing to https://rawreel.github.io/).
 - Same look as the main site: copied `style.css`, `settings.js`, the favicons and app icons, and reused the faq.html header and footer.
 - `DEVLOG.md` is the editable source. Run `python3 build.py` (needs the `markdown` package) to regenerate `index.html`.

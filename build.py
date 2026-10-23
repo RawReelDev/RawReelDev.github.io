@@ -11,7 +11,7 @@ import html, re, subprocess, sys
 import markdown
 
 MAIN = 'https://rawreel.github.io/'
-HQ = 'https://rawreelsupport.github.io/'
+HQ = 'https://rawreeldev.github.io/'
 
 def head(title, path, desc):
     return f'''<!DOCTYPE html>
