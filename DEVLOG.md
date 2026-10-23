@@ -26,7 +26,7 @@
 ## 🔑 Shared setup on this computer
 - Site repo: `RawReel/rawreel.github.io`, cloned at `/workspace/rawreel.github.io`. Live at https://rawreel.github.io/
 - `gh` CLI on the box is **logged in as RawReel** (scopes: repo, workflow, gist, read:org) as of 2026-10-23.
-- `rawreeldev.github.io` was first dropped (Support lives at `/support` on the main site), then **revived as the crew's backup HQ** for this devlog (boss's call, 2026-10-23). It lives in the free GitHub **organization RawReelDev** (https://github.com/RawReelDev), owned by the RawReel account, contact email `rawreelhq@mail.grokbot.com`. A separate account sign-up was blocked by GitHub, so we used an org instead. First named RawReelSupport, then renamed to **RawReelDev** at the boss's request (RRDEV was taken).
+- A separate support site (first `rawreelsupport.github.io`) was dropped (Support lives at `/support` on the main site), then **revived as the crew's backup HQ** at `rawreeldev.github.io` for this devlog (boss's call, 2026-10-23). It lives in the free GitHub **organization RawReelDev** (https://github.com/RawReelDev), owned by the RawReel account, contact email `rawreelhq@mail.grokbot.com`. A separate account sign-up was blocked by GitHub, so we used an org instead. First named RawReelSupport, then renamed to **RawReelDev** at the boss's request (RRDEV was taken).
 - Bot email inbox: **rawreelhq@mail.grokbot.com** (Schmeelohw's). Public support email stays **RR.Support.Agent@gmail.com**.
 - Support email used site-wide: **RR.Support.Agent@gmail.com**
 
