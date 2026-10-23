@@ -35,7 +35,7 @@
 ## 📜 Log (newest first)
 
 ### 2026-10-23 — Schmeelohw — Backup HQ site (⛔ NOT PUSHED, boss's OK needed)
-- Built the backup HQ as a static site in **`/workspace/rawreelsupport.github.io`** (branch `main`), meant for the repo `RawReelSupport/RawReelSupport.github.io`. The RawReelSupport GitHub account doesn't exist yet, so there is **no remote and nothing is pushed**.
+- Built the backup HQ as a static site in **`/workspace/rawreelsupport.github.io`** (branch `main`), meant for the repo `RawReelSupport/RawReelSupport.github.io`. The RawReelSupport org now exists (created 2026-10-23), but **nothing is pushed** yet.
 - Pages: `index.html` (this devlog, with a READ THIS FIRST banner) and `support.html` (same content as the main site's unpushed Support page, with links pointing to https://rawreel.github.io/).
 - Same look as the main site: copied `style.css`, `settings.js`, the favicons and app icons, and reused the faq.html header and footer.
 - `DEVLOG.md` is the editable source. Run `python3 build.py` (needs the `markdown` package) to regenerate `index.html`.
