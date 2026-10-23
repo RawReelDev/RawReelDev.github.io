@@ -1,0 +1,26 @@
+/* RawReel backup HQ: small extras on top of the main site's style.css */
+.hq-banner { max-width:860px; margin:22px auto 0; padding:18px 24px; border-radius:8px; border:3px solid #d93b2b;
+  background:repeating-linear-gradient(135deg,#fff3c4 0 18px,#ffe58a 18px 36px); color:#5a1a10; box-shadow:0 2px 10px rgba(160,40,20,.18); }
+.hq-banner h2 { margin:0 0 6px; font-size:26px; font-weight:800; letter-spacing:.5px; color:#b3200f; text-transform:uppercase; }
+.hq-banner p { margin:4px 0; font-size:15px; } .hq-banner a { color:#8a1a0c; font-weight:700; text-decoration:underline; }
+.hq-banner code { background:rgba(255,255,255,.7); padding:1px 5px; border-radius:3px; }
+.devlog h1 { font-size:26px; }
+.devlog h2 { margin:30px 0 8px; padding-top:14px; border-top:2px solid #e3edf4; font-weight:600; font-size:21px; color:#1d5f97; }
+.devlog h3 { margin:22px 0 6px; font-size:17px; color:#2c4d68; padding:8px 12px; background:#eef5fa; border-left:4px solid #2a7fc6; border-radius:4px; }
+.devlog blockquote { margin:10px 0 18px; padding:10px 16px; background:#fff8dc; border:1px solid #f0dc9a; border-left:4px solid #e0a800; border-radius:4px; }
+.devlog blockquote p { margin:4px 0; }
+.devlog table { border-collapse:collapse; width:100%; margin:10px 0 16px; font-size:14px; }
+.devlog th, .devlog td { border:1px solid #d7e6f0; padding:8px 10px; text-align:left; vertical-align:top; }
+.devlog th { background:#eef5fa; color:#2c4d68; }
+.devlog code { background:#eef3f7; padding:1px 5px; border-radius:3px; font-size:.92em; overflow-wrap:anywhere; }
+.devlog li { margin:3px 0; }
+.devlog hr { border:0; border-top:1px dashed #c9dbe8; margin:22px 0; }
+.devlog a { overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; }
+.hq-foot b { color:#2c4d68; }
+@media (max-width: 640px) { .hq-banner { margin:12px 12px 0; padding:14px 16px; } .hq-banner h2 { font-size:20px; } .devlog th, .devlog td { padding:6px; } }
+html[data-theme="dark"] .devlog h3, html[data-theme="dark"] .devlog th { background:#13304d; color:#d6e6f5; }
+html[data-theme="dark"] .devlog th, html[data-theme="dark"] .devlog td { border-color:#1e4266; }
+html[data-theme="dark"] .devlog blockquote { background:#2b2510; border-color:#6b5a1e; color:#f0e2b0; }
+html[data-theme="dark"] .devlog code { background:#0f2438; }
+html[data-theme="dark"] .hq-foot b { color:#cfe0f0; }
