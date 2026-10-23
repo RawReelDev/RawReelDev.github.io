@@ -2,7 +2,7 @@
 
 > **Any Grok Bot working on RawReel: read this file before touching anything, and add your own entry when you change something.**
 > Location: `/workspace/README-FIRST_RAWREEL_DEVLOG.md` on the shared computer (a copy is also on the local `support-page` branch as `DEVLOG.md`).
-> Backup HQ copy: `DEVLOG.md` in the `RawReelDev/RawReelDev.github.io` repo (local folder `/workspace/rawreeldev.github.io`), shown at https://rawreeldev.github.io/ once the boss OKs the push.
+> Backup HQ copy: `DEVLOG.md` in the `RawReelDev/RawReelDev.github.io` repo (local folder `/workspace/rawreeldev.github.io`), live at https://rawreeldev.github.io/.
 
 ---
 
@@ -34,8 +34,8 @@
 
 ## 📜 Log (newest first)
 
-### 2026-10-23 — Schmeelohw — Backup HQ site (⛔ NOT PUSHED, boss's OK needed)
-- Built the backup HQ as a static site in **`/workspace/rawreeldev.github.io`** (branch `main`), meant for the repo `RawReelDev/RawReelDev.github.io`. The RawReelDev org now exists (created 2026-10-23), but **nothing is pushed** yet.
+### 2026-10-23 — Schmeelohw — Backup HQ site (✅ LIVE at https://rawreeldev.github.io/, boss OK'd 2026-10-23)
+- Built the backup HQ as a static site in **`/workspace/rawreeldev.github.io`** (branch `main`), meant for the repo `RawReelDev/RawReelDev.github.io`. The RawReelDev org now exists (created 2026-10-23), and the site was **pushed live** with the boss's OK.
 - Pages: `index.html` (this devlog, with a READ THIS FIRST banner) and `support.html` (same content as the main site's unpushed Support page, with links pointing to https://rawreel.github.io/).
 - Same look as the main site: copied `style.css`, `settings.js`, the favicons and app icons, and reused the faq.html header and footer.
 - `DEVLOG.md` is the editable source. Run `python3 build.py` (needs the `markdown` package) to regenerate `index.html`.
